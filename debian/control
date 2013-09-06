@@ -1,0 +1,42 @@
+Source: kget
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdepimlibs5-dev (>= 4:4.10.2),
+ nepomuk-core-dev,
+ libnepomukwidgets-dev,
+ nepomuk-core-runtime,
+ libqca2-dev (>= 2.0.0),
+ libsqlite3-dev,
+ libgpgme11-dev,
+ libktorrent-dev (>= 1.1),
+ libmms-dev,
+ kde-workspace-dev (>= 4:4.10.2),
+ libkonq5-dev (>= 4:4.10.2),
+ libboost-dev,
+ shared-desktop-ontologies (>= 0.8),
+ libjs-mootools
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kget.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kget.git
+
+Package: kget
+Section: net
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjs-mootools
+Suggests: khelpcenter4
+Description: download manager
+ KGet is an advanced download manager with support for Metalink and Bittorrent.
+ Downloads are added to the list, where they can be paused, queued, or
+ scheduled for later.
+ .
+ This package is part of the KDE networking module.

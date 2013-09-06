@@ -1,0 +1,167 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kget
+Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Lukas Appelhans <l.appelhans@gmx.de>
+                  Urs Wolfer <uwolfer@kde.org>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2012, Aish Raj Dahal <dahalaishraj@gmail.com>
+           2002, Carsten Pfeiffer <pfeiffer@kde.org>
+           2008, Dario Freddi <drf54321@gmail.com>
+           2004-2009, Dario Massarin <nekkar@libero.it>
+           2010, Dawit Alemayehu <adawit@kde.org>
+           2005, Enrico Ros <eros.kde@email.it>
+           2009, Fabian Henze <flyser42 AT gmx DOT de>
+           2006-2008, Ivan Vasic <ivasic@gmail.com>
+           2007-2008, Javier Goday <jgoday@gmail.com>
+           2005-2008, Joris Guisson <joris.guisson@gmail.com>
+           2004-2007, KGet Developers <kget@kde.org>
+           2007-2011, Lukas Appelhans <l.appelhans@gmx.de>
+           2006-2008, Manolo Valdes <nolis71cu@gmail.com>
+           2004, Mark Kretschmann <markey@web.de>
+           1998,2000, Matej Koss
+           2009-2011, Matthias Fuchs <mat69@gmx.net>
+           2004-2008, Ningyu Shi <shiningyu@gmail.com>
+           2002, Patrick Charbonnier <pch@freeshell.org>
+           2009, Tomas Van Verrewegen <tomasvanverrewegen@telenet.be>
+           2006-2009, Urs Wolfer <uwolfer@kde.org>
+License: GPL-2+
+
+Files: transfer-plugins/mmsthreads/dlgmms.cpp
+       transfer-plugins/mmsthreads/dlgmms.h
+       transfer-plugins/mmsthreads/mmsdownload.cpp
+       transfer-plugins/mmsthreads/mmsdownload.h
+       transfer-plugins/mmsthreads/mmsthread.cpp
+       transfer-plugins/mmsthreads/mmsthread.h
+       transfer-plugins/mmsthreads/mmstransfer.cpp
+       transfer-plugins/mmsthreads/mmstransfer.h
+       transfer-plugins/mmsthreads/mmstransferfactory.cpp
+       transfer-plugins/mmsthreads/mmstransferfactory.h
+Copyright: 2011, Ernesto Rodriguez Ortiz <eortiz@uci.cu>
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: plasma/engine/kgetengine.cpp
+       plasma/engine/kgetengine.h
+Copyright: 2007, Javier Goday <jgoday@gmail.com>
+License: LGPL-2
+
+Files: extensions/webinterface/www/png_hack/iepngfix.htc
+Copyright: 2004-2005, Angus Turnbull
+License: LGPL-2.1
+
+Files: transfer-plugins/contentfetch/scripts/youtubedl/kget_youtubedl.py
+Copyright: 2008, Ningyu Shi <shiningyu@gmail.com>
+           2006-2008, Ricardo Garcia Gonzalez
+License: MIT/X11 (BSD like) GPL (v2 or later)
+ Copyright (C) 2008 Ningyu Shi <shiningyu@gmail.com>
+ .
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ Copyright (c) 2006-2008 Ricardo Garcia Gonzalez
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name(s) of the above copyright
+ holders shall not be used in advertising or otherwise to promote the
+ sale, use or other dealings in this Software without prior written
+ authorization.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: cmake/*
+Copyright: 2007, Joris Guisson <joris.guisson@gmail.com>
+           2007, Charles Connell <charles@connells.org>
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+ derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: doc/*
+Copyright: 2009, Gaurav Chaturvedi <gaurav.p.chaturvedi@gmail.com>
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
