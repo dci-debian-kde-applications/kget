@@ -1,5 +1,6 @@
 kget (4:4.11.1+dfsg-1) UNRELEASED; urgency=low
 
   * First release of kdenetwork after being split by upstream.
+  * Add debian version mangle to the watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Sep 2013 16:34:59 +0200
