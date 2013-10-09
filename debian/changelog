@@ -4,5 +4,6 @@ kget (4:4.11.2+dfsg-1) experimental; urgency=low
   * Add debian version mangle to the watch file.
   * Missing + in the copyright file.
   * Update build-dependencies.
+  * Add missing debian/source directory.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 14:09:26 +0200
