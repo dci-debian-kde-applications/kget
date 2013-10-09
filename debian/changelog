@@ -1,7 +1,7 @@
-kget (4:4.11.1+dfsg-1) UNRELEASED; urgency=low
+kget (4:4.11.2+dfsg-1) UNRELEASED; urgency=low
 
   * First release of kdenetwork after being split by upstream.
   * Add debian version mangle to the watch file.
   * Missing + in the copyright file.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Sep 2013 16:34:59 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 13:15:09 +0200
