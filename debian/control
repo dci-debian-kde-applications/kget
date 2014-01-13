@@ -34,7 +34,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kget.git
 Package: kget
 Section: net
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libjs-mootools
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, libjs-mootools
 Suggests: khelpcenter4
 Description: download manager
  KGet is an advanced download manager with support for Metalink and Bittorrent.
