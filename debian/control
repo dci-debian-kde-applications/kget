@@ -26,7 +26,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libsoprano-dev,
  shared-desktop-ontologies (>= 0.8),
  libjs-mootools
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kget.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kget.git
