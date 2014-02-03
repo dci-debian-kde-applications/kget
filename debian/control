@@ -8,24 +8,26 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.11),
- nepomuk-core-dev (>= 4:4.11),
- libnepomukwidgets-dev (>= 4:4.11),
- nepomuk-core-runtime (>= 4:4.11),
- pkg-config,
- libqca2-dev (>= 2.0.0),
- libsqlite3-dev,
- libgpgme11-dev,
- libktorrent-dev (>= 1.1),
- libmms-dev,
- kde-workspace-dev (>= 4:4.11),
- libkonq5-dev (>= 4:4.11),
- libboost-dev,
- libsoprano-dev,
- shared-desktop-ontologies (>= 0.8),
- libjs-mootools
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kde-workspace-dev (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11),
+               libboost-dev,
+               libgpgme11-dev,
+               libjs-mootools,
+               libkonq5-dev (>= 4:4.11),
+               libktorrent-dev (>= 1.1),
+               libmms-dev,
+               libnepomukwidgets-dev (>= 4:4.11),
+               libqca2-dev (>= 2.0.0),
+               libsoprano-dev,
+               libsqlite3-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               nepomuk-core-runtime (>= 4:4.11),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               shared-desktop-ontologies (>= 0.8)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
@@ -35,7 +37,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kget.git
 Package: kget
 Section: net
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, libjs-mootools
+Depends: libjs-mootools, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: download manager
  KGet is an advanced download manager with support for Metalink and Bittorrent.
