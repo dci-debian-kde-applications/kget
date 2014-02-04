@@ -1,1 +1,2 @@
 disable_kget_test_transfers
+disable_kget-verifiertest
