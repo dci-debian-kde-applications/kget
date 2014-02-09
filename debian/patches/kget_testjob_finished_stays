@@ -1,0 +1,13 @@
+Index: kget/tests/schedulertest.cpp
+===================================================================
+--- kget.orig/tests/schedulertest.cpp	2014-02-09 19:35:34.939060914 +0100
++++ kget/tests/schedulertest.cpp	2014-02-09 20:05:15.136885096 +0100
+@@ -57,7 +57,7 @@
+ 
+ void TestJob::stop()
+ {
+-    if ((status() == Running) || (status() == Aborted) || (status() == Moving) || (status() == Finished)) {
++    if ((status() == Running) || (status() == Aborted) || (status() == Moving)) {
+         setStatus(Stopped);
+     }
+ }
