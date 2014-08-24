@@ -97,5 +97,3 @@ usr/share/kde4/services/kgetpiechartapplet-default.desktop
 usr/share/kde4/services/plasma-engine-kget.desktop
 usr/share/kde4/services/plasma-runner-kget.desktop
 usr/share/kde4/servicetypes/kget_plugin.desktop
-usr/share/ontology/kde/kget_history.ontology
-usr/share/ontology/kde/kget_history.trig
