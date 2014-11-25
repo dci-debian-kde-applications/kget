@@ -1,7 +1,7 @@
 Source: kget
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -10,8 +10,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kde-workspace-dev (>= 4:4.11),
+               kde-sc-dev-latest (>= 4:4.12),              
                kdepimlibs5-dev (>= 4:4.11),
                libboost-dev,
                libgpgme11-dev,
@@ -27,14 +26,14 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kget.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kget.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kget.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kget.git
 
 Package: kget
 Section: net
 Architecture: any
 Depends: libjs-mootools, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: download manager
  KGet is an advanced download manager with support for Metalink and Bittorrent.
  Downloads are added to the list, where they can be paused, queued, or

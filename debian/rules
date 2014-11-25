@@ -8,12 +8,8 @@ override_dh_auto_configure:
 override_dh_auto_install:
 	$(overridden_command) --destdir=debian/tmp
 
-prune-nonfree:
+override_dh_link:
 	# Remove minified javascripts
-	rm -f extensions/webinterface/www/mootools-core-yc.js \
-	      extensions/webinterface/www/mootools-more.js
-	# Replace them with symlinks
-	ln -s /usr/share/javascript/mootools/mootools-core-yc.js \
-	      extensions/webinterface/www/mootools-core-yc.js
-	ln -s /usr/share/javascript/mootools/mootools-more.js \
-	      extensions/webinterface/www/mootools-more.js
+	rm -f debian/tmp/usr/share/kde4/apps/kget/www/mootools-core-yc.js
+	rm -f debian/tmp/usr/share/kde4/apps/kget/www/mootools-more.js
+	$(overridden_command)
