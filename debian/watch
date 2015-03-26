@@ -1,3 +1,3 @@
 version=3
-opts=dversionmangle=s/\+dfsg(\.\d+)?$// \
-http://download.kde.org/stable/applications/([\d.]+)/src/kget-([\d.]+).tar.xz
+opts="repacksuffix=+dfsg" \
+ http://download.kde.org/stable/applications/([\d.]+)/src/kget-([\d.]+).tar.xz
