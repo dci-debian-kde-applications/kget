@@ -5,6 +5,7 @@ Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
                   Urs Wolfer <uwolfer@kde.org>
 Source: http://www.kde.org/download/
 Files-Excluded: extensions/webinterface/www/mootools-core-yc.js
+                extensions/webinterface/www/mootools-more.js
 
 Files: *
 Copyright: 2012, Aish Raj Dahal <dahalaishraj@gmail.com>
