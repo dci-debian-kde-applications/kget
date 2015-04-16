@@ -1,6 +1,7 @@
 kget (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix kdepimlibs version 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 14:27:23 -0700
 
