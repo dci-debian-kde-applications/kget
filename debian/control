@@ -10,7 +10,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),              
+               kde-sc-dev-latest (>= 4:4.12),
                kdepimlibs5-dev (>= 4:4.14),
                libboost-dev,
                libgpgme11-dev,
