@@ -1,5 +1,3 @@
 version=3
-opts=dversionmangle=s/\+dfsg(\.\d+)?$// \
 http://download.kde.org/stable/applications/([\d.]+)/src/kget-([\d.]+).tar.xz
-
 http://download.kde.org/unstable/applications/([\d.]+)/src/kget-([\d.]+).tar.xz
