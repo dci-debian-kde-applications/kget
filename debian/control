@@ -23,7 +23,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                shared-desktop-ontologies (>= 0.8)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kget.git/
