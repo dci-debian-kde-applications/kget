@@ -1,10 +1,10 @@
-kget (4:15.08.0+dfsg-1~) UNRELEASED; urgency=medium
+kget (4:15.08.0+dfsg-1) unstable; urgency=medium
 
   * New upstream release (15.04.0+dfsg).
   * New upstream release (15.04.2+dfsg).
   * New upstream release (15.08.0+dfsg).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 17:11:58 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 17:24:17 +0200
 
 kget (4:14.12.3+dfsg-1) experimental; urgency=medium
 
