@@ -1,8 +1,8 @@
-kget (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+kget (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 23:39:56 +0100
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:51:59 +0100
 
 kget (4:15.08.0-0ubuntu2) wily; urgency=medium
 
