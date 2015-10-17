@@ -1,10 +1,11 @@
-kget (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+kget (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Fix kdepimlibs version 
   * Vivid backport
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 01 Oct 2015 10:49:22 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 16 Oct 2015 22:41:42 -0700
 
 kget (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
