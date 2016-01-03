@@ -1,1 +1,3 @@
 kget: package-name-doesnt-match-sonames libkgetcore4
+kget source: source-is-missing extensions/webinterface/www/mootools-core-yc.js
+kget: binary-without-manpage usr/bin/kget
