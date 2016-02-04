@@ -1,0 +1,2 @@
+kget source: source-contains-unsafe-symlink extensions/webinterface/www/mootools-*.js
+kget source: source-is-missing extensions/webinterface/www/mootools-core-yc.js

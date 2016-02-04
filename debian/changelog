@@ -1,3 +1,15 @@
+kget (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 04 Feb 2016 08:28:40 -0800
+
+kget (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:15 +0100
+
 kget (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
@@ -16,6 +28,14 @@ kget (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:51:59 +0100
+
+kget (4:15.08.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0+dfsg).
+  * New upstream release (15.04.2+dfsg).
+  * New upstream release (15.08.0+dfsg).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 17:24:17 +0200
 
 kget (4:15.08.0-0ubuntu2) wily; urgency=medium
 
@@ -50,13 +70,32 @@ kget (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:02:37 +0200
 
+kget (4:14.12.3+dfsg-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3+dfsg).
+  * New patch: minified_file
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:11 +0200
+
 kget (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
-  * Add back kdepimlibs parent version depend. 
+  * Add back kdepimlibs parent version depend.
   * New upstream release
-  * Fix kdepimlibs version in build depends. 
+  * Fix kdepimlibs version in build depends.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:41:31 -0700
+
+kget (4:14.12.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2+dfsg).
+
+  [ Scarlett Clark ]
+  * Add back kdepimlibs parent version depend.
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 12:57:45 +0100
 
 kget (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
@@ -80,20 +119,19 @@ kget (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kget (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
    - Remove depend on  kde-workspace-dev which is not available
      in this series.
-   - 
-  * Debian merge, remaining changes: 
+   -
+  * Debian merge, remaining changes:
    - Change 'MIT/X11 (BSD like) to MIT-X11-BSD-like to make lintian happy.
-   - Move prune-nonfree to dh_links as it was not functioning and 
+   - Move prune-nonfree to dh_links as it was not functioning and
      installing the minified js, triggering lintian.
    - Add not-installed for missing libkgetcore.so - there is
      no -dev package.
-   
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 25 Nov 2014 15:26:03 +0000
 
@@ -106,9 +144,9 @@ kget (4:4.14.2-0ubuntu2) vivid; urgency=medium
 kget (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Change 'MIT/X11 (BSD like) to MIT-X11-BSD-like to make lintian happy. 
+  * Change 'MIT/X11 (BSD like) to MIT-X11-BSD-like to make lintian happy.
   * Add mootools lintian to override as it is linked in prune:non-free
-    in rules file. 
+    in rules file.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 04:53:00 -0700
 
@@ -190,7 +228,7 @@ kget (4:4.12.95-0ubuntu1) trusty; urgency=medium
 kget (4:4.12.90-0ubuntu2) trusty; urgency=medium
 
   * Drop libnepomukwidgets-dev from build-depends, obsolete
-  * Remove obsolete nepomuk ontologies from kget.install 
+  * Remove obsolete nepomuk ontologies from kget.install
 
  -- Philip Muškovac <yofel@kubuntu.org>  Thu, 20 Mar 2014 14:13:47 +0100
 
@@ -350,4 +388,3 @@ kget (4:4.10.80-0ubuntu1) saucy; urgency=low
   * Initial package split from kdenetwork
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:25:26 +0100
-
