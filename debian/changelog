@@ -1,6 +1,6 @@
-kget (4:16.08.0-0r1) UNRELEASED; urgency=medium
+kget (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Stop forcing the local installation to debian/tmp, letting the package
     directory as install place.
@@ -10,7 +10,7 @@ kget (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Remove unused dh_auto_configure override (does nothing more than the tool
     itself).
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 23:21:15 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 23:40:05 +0200
 
 kget (4:15.12.1-2) unstable; urgency=medium
 
