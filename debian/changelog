@@ -2,6 +2,11 @@ kget (4:16.08.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - manually remove only the files (i.e. .so symlinks) that are not needed
+    - remove get.install, no more used now
+    - remove not-installed file, no more used now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 23:21:15 +0200
 
