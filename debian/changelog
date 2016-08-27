@@ -7,6 +7,8 @@ kget (4:16.08.0-0r1) UNRELEASED; urgency=medium
     - manually remove only the files (i.e. .so symlinks) that are not needed
     - remove get.install, no more used now
     - remove not-installed file, no more used now
+  * Remove unused dh_auto_configure override (does nothing more than the tool
+    itself).
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 23:21:15 +0200
 
