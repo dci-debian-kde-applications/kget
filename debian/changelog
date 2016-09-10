@@ -1,3 +1,11 @@
+kget (4:16.08.0-2~1.gbp16a9a8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @16a9a830606565fe0b09ebedc3c5ef9fcfbb1b9e **
+
+  * Disable kdepimlibs build dependency
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 10 Sep 2016 19:40:39 +0200
+
 kget (4:16.08.0-1) unstable; urgency=medium
 
   * Team upload.
