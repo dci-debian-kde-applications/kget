@@ -1,10 +1,9 @@
-kget (4:16.08.0-2~1.gbp16a9a8) UNRELEASED; urgency=medium
+kget (4:16.08.0-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @16a9a830606565fe0b09ebedc3c5ef9fcfbb1b9e **
-
+  * New upstream release (16.08.0)
   * Disable kdepimlibs build dependency
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 10 Sep 2016 19:40:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 23:56:58 +0200
 
 kget (4:16.08.0-1) unstable; urgency=medium
 
