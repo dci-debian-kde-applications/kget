@@ -1,5 +1,9 @@
 kget (4:16.08.0-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Update the build dependencies:
+    - drop libktorrent-dev to disable the torrent support, since libktorrent
+      is currently updated to the KF5 version
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Sep 2017 20:04:57 +0200
 
