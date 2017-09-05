@@ -1,0 +1,18 @@
+Author: Pino Toscano <pino@debian.org>
+Description: Disable build of Plasma4 stuff
+ Do not built the applets and the runner for Plasma4, since they are not
+ useful outside a Plasma4 environment.
+Last-Update: 2017-09-05
+Forwarded: not-needed
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -103,7 +103,7 @@ add_subdirectory(transfer-plugins)
+ add_subdirectory(extensions)
+ add_subdirectory(sounds)
+ add_subdirectory(desktop)
+-add_subdirectory(plasma)
++#add_subdirectory(plasma)
+ add_subdirectory(tests)
+ add_subdirectory(doc)
+ 

@@ -6,6 +6,8 @@ kget (4:16.08.0-3) UNRELEASED; urgency=medium
       is currently updated to the KF5 version
     - drop libsoprano-dev, and shared-desktop-ontologies, as the Nepomuk
       support was dropped long ago
+  * Disable the build of applets and runner for Plasma4 since they are not
+    useful without a Plasma4 environment; patch disable-plasma.diff.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Sep 2017 20:04:57 +0200
 
