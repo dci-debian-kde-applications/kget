@@ -1,6 +1,6 @@
-kget (4:16.08.0-3) UNRELEASED; urgency=medium
+kget (4:16.08.0-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update the build dependencies:
     - drop libktorrent-dev to disable the torrent support, since libktorrent
       is currently updated to the KF5 version
@@ -9,7 +9,7 @@ kget (4:16.08.0-3) UNRELEASED; urgency=medium
   * Disable the build of applets and runner for Plasma4 since they are not
     useful without a Plasma4 environment; patch disable-plasma.diff.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Sep 2017 20:04:57 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 05 Sep 2017 21:00:10 +0200
 
 kget (4:16.08.0-2) unstable; urgency=medium
 
