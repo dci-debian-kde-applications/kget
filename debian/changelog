@@ -2,6 +2,8 @@ kget (4:16.08.0-4) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Drop the libgpgme11-dev build dependency, since it is not used.
+  * Pass -DKDE4_BUILD_TESTS=OFF to cmake to disable the build of unit tests,
+    since they are not run anyway.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Sep 2017 07:48:05 +0200
 
