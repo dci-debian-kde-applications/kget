@@ -11,6 +11,7 @@ kget (4:16.08.0-4) UNRELEASED; urgency=medium
       unclear status and reasons)
     - kget_testjob_finished_stays: drop, only for not run unit tests (and with
       unclear status and reasons)
+  * Bump Standards-Version to 4.1.0, no changes required.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Sep 2017 07:48:05 +0200
 

@@ -19,7 +19,7 @@ Build-Depends: cmake (>= 2.8.9~),
                libsqlite3-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-Standards-Version: 3.9.8
+Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kget.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kget.git
