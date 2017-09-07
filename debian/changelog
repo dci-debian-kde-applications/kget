@@ -1,5 +1,7 @@
 kget (4:16.08.0-4) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Drop the libgpgme11-dev build dependency, since it is not used.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Sep 2017 07:48:05 +0200
 
