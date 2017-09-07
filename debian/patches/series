@@ -1,5 +1,2 @@
-disable_kget_test_transfers
-disable_kget-verifiertest
-kget_testjob_finished_stays
 minified_file
 disable-plasma.diff
