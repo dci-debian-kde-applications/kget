@@ -1,6 +1,6 @@
-kget (4:16.08.0-4) UNRELEASED; urgency=medium
+kget (4:16.08.0-4) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Drop the libgpgme11-dev build dependency, since it is not used.
   * Pass -DKDE4_BUILD_TESTS=OFF to cmake to disable the build of unit tests,
     since they are not run anyway.
@@ -13,7 +13,7 @@ kget (4:16.08.0-4) UNRELEASED; urgency=medium
       unclear status and reasons)
   * Bump Standards-Version to 4.1.0, no changes required.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Sep 2017 07:48:05 +0200
+ -- Pino Toscano <pino@debian.org>  Thu, 07 Sep 2017 08:38:07 +0200
 
 kget (4:16.08.0-3) unstable; urgency=medium
 
