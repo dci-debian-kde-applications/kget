@@ -38,6 +38,7 @@ Build-Depends: cmake (>= 2.8.9~),
                libktorrent-dev,
                libmms-dev,
                libqca-qt5-2-dev,
+               libqgpgme7-dev,
                libsqlite3-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12)
