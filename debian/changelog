@@ -1,9 +1,13 @@
-kget (4:16.08.0-5~) UNRELEASED; urgency=medium
+kget (4:17.12.0-0neon) xenial; urgency=medium
 
+  [ Maximiliano Curia ]
   * New revision
   * Update uploaders list as requested by MIA team (Closes: #879341)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:00:51 +0100
+  [ Neon CI ]
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 15 Dec 2017 13:10:47 +0000
 
 kget (4:16.08.0-4) unstable; urgency=medium
 
