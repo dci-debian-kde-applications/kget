@@ -13,6 +13,9 @@ kget (4:17.12.2-0r1) UNRELEASED; urgency=medium
       libkf5service-dev, libkf5solid-dev, libkf5textwidgets-dev,
       libkf5wallet-dev, libkf5widgetsaddons-dev, libkf5windowsystem-dev,
       libkf5xmlgui-dev, and libqca-qt5-2-dev
+  * Update the other build dependencies:
+    - add libgpgmepp-dev, and libktorrent-dev, used by the new version
+    - add libgpgme-dev to workaround a missing dependency in libgpgmepp-dev
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:55:53 +0100
 
