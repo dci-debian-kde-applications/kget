@@ -26,6 +26,7 @@ kget (4:17.12.2-0r1) UNRELEASED; urgency=medium
     - minified_file: refresh
     - disable-plasma.diff: drop, no more needed now
   * Break/replace against kde-l10n that ships translations.
+  * Do not ship the translations of the unported Plasma components.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:55:53 +0100
 

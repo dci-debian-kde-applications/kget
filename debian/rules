@@ -12,3 +12,6 @@ override_dh_auto_install:
 	$(overridden_command)
 	# remove dev .so symlinks, we aren't shipping dev suff for these
 	find debian/kget -name '*.so' -type l -print -delete
+	# remove translations of unbuilt plasma stuff
+	rm -f debian/kget/usr/share/locale/*/LC_MESSAGES/plasma_applet_kget.mo
+	rm -f debian/kget/usr/share/locale/*/LC_MESSAGES/plasma_runner_kget.mo
