@@ -28,6 +28,7 @@ kget (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Break/replace against kde-l10n that ships translations.
   * Do not ship the translations of the unported Plasma components.
   * Update lintian overrides.
+  * Use https for Format in copyright.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:55:53 +0100
 
