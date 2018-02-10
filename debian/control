@@ -54,6 +54,8 @@ Section: net
 Architecture: any
 Depends: libjs-mootools, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: download manager
  KGet is an advanced download manager with support for Metalink and Bittorrent.
  Downloads are added to the list, where they can be paused, queued, or
