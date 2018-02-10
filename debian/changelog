@@ -19,6 +19,8 @@ kget (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Use the right makefile class:
     - use debian-qt-kde.mk v3
     - bump the pkg-kde-tools build dependency to >= 0.15.16
+  * Switch the cmake parameter -DKDE4_BUILD_TESTS=OFF to -DBUILD_TESTING=OFF,
+    as this is what ECM provides.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:55:53 +0100
 
