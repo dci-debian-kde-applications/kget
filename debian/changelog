@@ -16,6 +16,9 @@ kget (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Update the other build dependencies:
     - add libgpgmepp-dev, and libktorrent-dev, used by the new version
     - add libgpgme-dev to workaround a missing dependency in libgpgmepp-dev
+  * Use the right makefile class:
+    - use debian-qt-kde.mk v3
+    - bump the pkg-kde-tools build dependency to >= 0.15.16
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:55:53 +0100
 
