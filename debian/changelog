@@ -22,6 +22,9 @@ kget (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Switch the cmake parameter -DKDE4_BUILD_TESTS=OFF to -DBUILD_TESTING=OFF,
     as this is what ECM provides.
   * Update paths with the local mootools js files to replace.
+  * Update the patches:
+    - minified_file: refresh
+    - disable-plasma.diff: drop, no more needed now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:55:53 +0100
 

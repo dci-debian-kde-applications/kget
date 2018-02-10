@@ -1,7 +1,5 @@
-Index: kget/extensions/webinterface/www/CMakeLists.txt
-===================================================================
---- kget.orig/extensions/webinterface/www/CMakeLists.txt	2015-03-26 13:34:06.208850049 +0100
-+++ kget/extensions/webinterface/www/CMakeLists.txt	2015-03-28 22:23:57.831586266 +0100
+--- a/extensions/webinterface/www/CMakeLists.txt
++++ b/extensions/webinterface/www/CMakeLists.txt
 @@ -1,7 +1,5 @@
  set(www_data
      index.htm
